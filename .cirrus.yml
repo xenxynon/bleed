@@ -13,8 +13,6 @@ task:
     
     setup_script:
       - curl -Ls https://raw.githubusercontent.com/akhilnarang/scripts/master/setup/android_build_env.sh
-    vars_script:
-      - curl -Ls https://raw.githubusercontent.com/xenxynon/scripts/main/vars.sh | bash
     sync_script:
       - bash sync.sh
     build_script:
