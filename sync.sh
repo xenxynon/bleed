@@ -7,4 +7,4 @@ repo init -u https://github.com/P-404/android_manifest --depth=1
 git clone https://github.com/XenStuff/manifest --depth=1 -b 404 .repo/local_manifests
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
-# 5
+# 6
