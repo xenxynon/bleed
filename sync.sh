@@ -5,6 +5,6 @@ git config --global color.ui false
 # sync
 repo init -u https://github.com/P-404/android_manifest --depth=1
 git clone https://github.com/XenStuff/manifest --depth=1 -b 404 .repo/local_manifests
-repo sync -c -j16 --force-sync --no-clone-bundle --no-tags
+repo sync -c -j16 --force-sync --no-clone-bundle --no-tags -v
 
-# ban ja bsdk
+# madar
