@@ -8,3 +8,4 @@ git clone https://github.com/xenxynon-lab-404/manifest --depth=1 -b 404-mi439 .r
 repo sync -c --force-sync -j16 --no-clone-bundle --no-tags -v
 
 # ban bsdk
+#
