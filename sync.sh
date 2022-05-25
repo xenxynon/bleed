@@ -7,5 +7,5 @@ repo init -u https://github.com/P-404/android_manifest --depth=1
 git clone https://github.com/xenxynon-lab-404/manifest --depth=1 -b 404-mi439 .repo/local_manifests
 repo sync -c --force-sync -j16 --no-clone-bundle --no-tags
 echo"working???"
-
+# maibssdk
 # madarjat
