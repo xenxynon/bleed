@@ -7,9 +7,9 @@ task:
     name: lavender
     timeout_in: 4h
     container:
-      image: aarunalr/aosp-build
-      cpu: 8
-      memory: 32g
+      image: apon77/aosp:cirrus
+      cpu: 16
+      memory: 48g
     
     sync_script:
       - bash sync.sh
