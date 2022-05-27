@@ -11,8 +11,6 @@ task:
       cpu: 8
       memory: 32g
     
-    setup_script:
-      - curl -Ls https://raw.githubusercontent.com/akhilnarang/scripts/master/setup/android_build_env.sh
     sync_script:
       - bash sync.sh
     build_script:
