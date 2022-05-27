@@ -14,4 +14,4 @@ task:
     sync_script:
       - bash sync.sh
     build_script:
-      - bash build.sh
+      - bash build_rom.sh
