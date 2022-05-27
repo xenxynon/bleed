@@ -14,4 +14,4 @@ task:
     sync_script:
       - bash sync.sh
     build_script:
-      - curl -Ls https://raw.githubusercontent.com/xenxynon/scripts/main/build_404.sh | bash
+      - bash build.sh
