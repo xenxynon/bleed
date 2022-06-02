@@ -9,4 +9,3 @@ repo sync -c --force-sync -j8 --no-clone-bundle --no-tags
 rm -rf packages/resources/devicesettings
 git clone https://github.com/lineageos/android\_packages\_resources\_devicesettings packages/resources/devicesettings
 # build????
-
