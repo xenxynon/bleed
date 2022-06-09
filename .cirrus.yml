@@ -4,12 +4,14 @@ env:
     CIRRUS_SHELL: bash
     
 task:
-    name: lavender
+    name: rom
     timeout_in: 4h
     container:
       image: aarunalr/aosp-build
       cpu: 8
       memory: 32g
     
+    sync_script:
+      - bash sync
     build_script:
-      - bash buildrom.sh
+      - bash build
