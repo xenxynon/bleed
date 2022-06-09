@@ -1,0 +1,4 @@
+# build????
+source build/envsetup.sh
+lunch p404_Mi439-eng
+make bacon
