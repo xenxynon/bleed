@@ -2,7 +2,6 @@ git config --global user.email "flynryder427@gmail.com"
 git config --global user.name "xenxynon"
 git config --global color.ui false
 
-
 # sync
 repo init --depth=1 -u https://github.com/Fork-Krypton/manifest.git -b A12 -g default,-mips,-darwin,-notdefault
 git clone https://github.com/XenStuff/manifest --depth 1 -b kosp .repo/local_manifests
