@@ -1,4 +1,4 @@
 # build????
 source build/envsetup.sh
-lunch p404_Mi439-eng
-make bacon
+export TZ=Asia/Kolkata #put before last build command
+launch lavender user -cjbg -i lavender_release_incremental -o lavender --build-both-targets
