@@ -4,6 +4,6 @@ git config --global color.ui false
 
 
 # sync
-repo init -u https://github.com/P-404/android_manifest --depth=1
-git clone https://github.com/xenxynon-lab-404/manifest --depth=1 -b 404-mi439 .repo/local_manifests
-repo sync -c --force-sync -j8 --no-clone-bundle --no-tags
+repo init --depth=1 -u https://github.com/Fork-Krypton/manifest.git -b A12 -g default,-mips,-darwin,-notdefault
+git clone https://github.com/XenStuff/manifest --depth 1 -b kosp .repo/local_manifests
+repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j16
