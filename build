@@ -1,4 +1,4 @@
 # build????
 source build/envsetup.sh
-export TZ=Asia/Kolkata #put before last build command
-launch lavender user -cjbg -i lavender_release_incremental -o lavender --build-both-targets
+lunch p404_lavender-userdebug
+make bootimage -j(nproc --all)
