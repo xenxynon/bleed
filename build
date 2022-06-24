@@ -1,4 +1,4 @@
 # build????
 source build/envsetup.sh
 lunch p404_lavender-userdebug
-make bootimage -j(nproc --all)
+make bootimage -j$(nproc --all)
