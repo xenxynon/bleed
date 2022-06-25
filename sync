@@ -5,4 +5,4 @@ git config --global color.ui false
 # sync
 repo init --depth=1 -u https://github.com/P-404/android_manifest -b shinka 
 git clone https://github.com/xenxynon-lab-404/manifest --depth=1 -b 404 .repo/local_manifests
-repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all)
+repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync
