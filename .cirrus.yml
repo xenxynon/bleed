@@ -10,7 +10,9 @@ task:
       image: nexgang/ubuntu:latest
       cpu: 8
       memory: 32g
-    
+
+    setup_script:
+      - bash setup.sh
     sync_script:
       - bash sync
     build_script:
