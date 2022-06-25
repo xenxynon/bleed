@@ -1,6 +1,3 @@
-apt update && apt upgrade
-curl -Ls https://raw.githubusercontent.com/ghostrider-reborn/scripts/master/ubuntu-setup.sh | bash
-
 git config --global user.email "flynryder427@gmail.com"
 git config --global user.name "xenxynon"
 git config --global color.ui false
