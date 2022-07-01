@@ -1,5 +1,5 @@
 # build????
-. build*/envsetup.sh
+. build/envsetup.sh
 lunch xdroid_lavender-user
 make sepolicy
 make bootimage
