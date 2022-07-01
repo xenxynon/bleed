@@ -1,4 +1,7 @@
 # build????
 source build/envsetup.sh
-lunch p404_lavender-userdebug
-make bootimage -j$(nproc --all)
+lunch xdroid_lavender-user
+make sepolicy
+make bootimage
+make vendor
+make DevicesSettings
